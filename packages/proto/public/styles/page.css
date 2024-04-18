@@ -1,16 +1,23 @@
 header {
-    color: burlywood; 
-    background-color: rgb(7, 60, 81); 
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color: #EEE4B1; 
+    background-color: #5F374B; 
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 10;
     text-align: center;
+    width: max-content;
+    padding: 10px;
+    margin: 10px;
 }
 
 body{
-    background-color: rgb(36, 33, 33);
+    background-color: #430A5D;
+    color: #EEE4B1;
 }
 
-li {
-    color: burlywood;
+a {
+    color: #EEE4B1;
 }
 
