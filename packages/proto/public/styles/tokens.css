@@ -1,0 +1,13 @@
+:root {
+    --color-text-body: #b2b2ac;
+    --color-text-header: #a97b5b;
+    --color-background-header: #22075a;
+    --color-background-body: #12161b;
+    --color-background-button: #22075a;
+
+    --font-family-header: "Bitter", "IBM PLex Serif", serif;
+    --font-family-body: "Lato", "Open Sans", sans-serif;
+
+    --border-radius-header: 10px;
+
+}
