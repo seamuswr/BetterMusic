@@ -3,18 +3,18 @@ body {
     color: var(--color-text-body);
     font-family: var(--font-family-body);
     display: grid;
-    grid-template-columns: repeat(7, 1fr) ;
-    grid-template-rows: [start] 150px [line2] 100px [line3] 40px [line4] 70px [end] auto;
+    grid-template-columns: 1fr 1fr 1fr 150px 1fr 1fr 1fr ;
+    grid-template-rows: [start] 150px [line2] 100px [line3] 60px [line4] 150px [end] auto;
 }
 
 header {
     display: contents;
-    grid-row: 1 / 2;
 }
 
 .main-header {
+    grid-row: 1 / 2;
     justify-self: center;
-    grid-column: 3 / 6;
+    grid-column: 2 / 7;
     font-family: var(--font-family-header);
     font-size: var(--font-size-xlarge);
     color: var(--color-text-header);
@@ -28,6 +28,7 @@ header {
 }
 
 .login {
+    grid-row: 1 / 2;
     justify-self: center;
     grid-column: 6 / 8;
     font-size: var(--font-size-medium);
@@ -67,8 +68,9 @@ main {
 
 .checkout {
     grid-row: line3;
-    grid-column: 4;
+    grid-column: 3 / 6;
     justify-self: center;
+    align-self: center;
 }
 
 .songs {
@@ -76,6 +78,7 @@ main {
     grid-row: line4;
     grid-column: 3;
     justify-self: right;
+    text-decoration: underline;
 }
 
 .artists {
@@ -83,6 +86,7 @@ main {
     grid-row: line4;
     grid-column: 4;
     justify-self: center;
+    text-decoration: underline;
 }
 
 .genres {
@@ -90,6 +94,7 @@ main {
     grid-row: line4;
     grid-column: 5;
     justify-self: left;
+    text-decoration: underline;
 }
 
 .about {
@@ -97,7 +102,32 @@ main {
     grid-row: 5;
     grid-column: 4 / 5;
     justify-self: center;
+    text-decoration: underline;
 }
+
+.sub-header {
+    grid-row: line2;
+    grid-column: 3 / 6;
+    justify-self: center;
+    align-self: center;
+}
+
+#login {
+    color: var(--color-text-body);
+    text-decoration: underline;
+    font-size: var(--font-size-medium);
+}
+
+ol {
+    grid-row: line3;
+    grid-column: 3 / 6;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
 
 
 
