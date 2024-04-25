@@ -4,7 +4,7 @@ body {
     font-family: var(--font-family-body);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 150px 1fr 1fr 1fr ;
-    grid-template-rows: [start] 150px [line2] 100px [line3] 60px [line4] 150px [end] auto;
+    grid-template-rows: [start] 150px [line2] 100px [line3] 60px [line4] 50px [line5] 150px [end] auto;
 }
 
 header {
@@ -47,6 +47,7 @@ main {
     display: contents;
     color: var(--color-text-body);
 }
+
 
 .play_song {
     color: var(--color-text-body);
@@ -99,7 +100,7 @@ main {
 
 .about {
     color: var(--color-text-body);
-    grid-row: 5;
+    grid-row: 6;
     grid-column: 4 / 5;
     justify-self: center;
     text-decoration: underline;
@@ -125,6 +126,18 @@ ol {
     align-self: center;
 }
 
+.song-area {
+    grid-row: line4;
+    grid-column: 3;
+    justify-self: right;
+    align-self: center;
+}
+
+.party-mode {
+    grid-row: 7;
+    grid-column: 4 / 5;
+    justify-self: center;
+}
 
 
 
