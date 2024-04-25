@@ -119,24 +119,15 @@ main {
     font-size: var(--font-size-medium);
 }
 
-ol {
-    grid-row: line3;
-    grid-column: 3 / 6;
-    justify-self: center;
-    align-self: center;
-}
-
-.song-area {
-    grid-row: line4;
-    grid-column: 3;
-    justify-self: right;
-    align-self: center;
-}
 
 .party-mode {
     grid-row: 7;
     grid-column: 4 / 5;
     justify-self: center;
+}
+
+.fav-list {
+    font-style: normal;
 }
 
 
